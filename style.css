@@ -5,15 +5,17 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
     background-color: #1e88e5;
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
     font-size: 30px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -24,20 +26,24 @@ h1 {
 
 h2, h3 {
     color: #0288d1;
+    margin-bottom: 15px;
 }
 
 .stButton button {
     background-color: #1e88e5;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px 0;
 }
 
 .stButton button:hover {
     background-color: #1565c0;
+    transform: translateY(-2px);
 }
 
 .stTextInput input, .stFileUploader label {
@@ -47,16 +53,20 @@ h2, h3 {
     font-size: 16px;
     border-radius: 5px;
     color: white;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .stTextInput input:focus, .stFileUploader label:focus {
-    border-color: #1e88e5;
+    border-color: #1565c0;
+    outline: none;
 }
 
 .stMarkdown h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 24px;
+    color: #1e88e5;
 }
 
 .upload-area {
@@ -103,7 +113,7 @@ h2, h3 {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
     text-align: center;
     margin-bottom: 10px;
@@ -112,6 +122,7 @@ h2, h3 {
 
 .download-button:hover {
     background-color: #1565c0;
+    transform: translateY(-2px);
 }
 
 .download-button i {
@@ -123,5 +134,29 @@ hr {
     height: 1px;
     background: #1e88e5;
     margin: 20px 0;
+}
+
+.expander {
+    background-color: #1e1e1e;
+    border: 1px solid #1e88e5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.expander:hover {
+    border-color: #1565c0;
+}
+
+.stMarkdown {
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+.stMarkdown pre {
+    background-color: #1e1e1e;
+    border: 1px solid #1e88e5;
+    border-radius: 5px;
+    padding: 10px;
 }
 

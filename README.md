@@ -32,8 +32,8 @@ The Radio Interview Transcript Analyzer is a powerful tool that automates the pr
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/radio-interview-analyzer.git
-   cd radio-interview-analyzer
+   git clone https://github.com/Nhyira-J/ai_final_proj.git
+   cd ai_final_proj
    ```
 2. **Install Dependencies**
 

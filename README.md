@@ -8,7 +8,7 @@ We are Group 20. The team is made up of:
 - Jemima Konadu Antwi
 
 ## Link to the video
-https://youtu.be/3XK6JZuqwVE
+https://youtu.be/fG3-kAtKX2I
 
 ## 🖥️ Link to Deployed App
 https://aifinalproj-7cekd82swfdluhqm9a4834.streamlit.app

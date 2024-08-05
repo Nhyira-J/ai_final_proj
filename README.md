@@ -2,6 +2,17 @@
 
 Welcome to the Radio Interview Transcript Analyzer! This application leverages advanced AI models to transform radio interviews into actionable insights, helping journalists, media professionals, and researchers extract valuable information quickly and efficiently.
 
+## Team Info
+We are Group 20. The team is made up of:
+- Jemima Nhyira Antwi
+- Jemima Konadu Antwi
+
+## Link to the video
+https://youtu.be/3XK6JZuqwVE
+
+## 🖥️ Link to Deployed App
+https://aifinalproj-7cekd82swfdluhqm9a4834.streamlit.app
+
 ## 🌟 Overview
 
 The Radio Interview Transcript Analyzer is a powerful tool that automates the process of analyzing radio interviews. By combining state-of-the-art natural language processing techniques with user-friendly design, the app provides comprehensive analyses, including sentiment analysis, topic modeling, entity extraction, and keyword analysis. These features enable users to uncover hidden narratives, identify key themes, and generate insights tailored for impactful journalism.
